@@ -52,11 +52,9 @@ Make sure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/YourProjectName.git](https://github.com/YourUsername/YourProjectName.git)
-    cd YourProjectName # Navigate into your project directory
+    git clone https://github.com/nikhil31082005/Form-builder-app.git
+    cd FormBuilderApp # Navigate into your project directory
     ```
-    (Replace `YourUsername` and `YourProjectName` with your actual GitHub username and repository name.)
-
 2.  **Install dependencies:**
     ```bash
     npm install
