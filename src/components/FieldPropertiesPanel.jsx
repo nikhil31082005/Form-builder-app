@@ -164,14 +164,6 @@ const FieldPropertiesPanel = () => {
                                         placeholder={`Option ${index + 1} Label`}
                                         className="flex-1 p-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
                                     />
-                                    <input
-                                        type="text"
-                                        name="value"
-                                        value={option.value}
-                                        onChange={(e) => handleOptionChange(index, e)}
-                                        placeholder={`Option ${index + 1} Value`}
-                                        className="flex-1 p-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
-                                    />
                                     <button
                                         onClick={() => removeOption(index)}
                                         className="p-2 bg-red-500 text-white rounded-md hover:bg-red-600 text-sm flex-shrink-0"
